@@ -8,32 +8,51 @@
   <body>
     <nav>
       <div>
-        <span>Navbar</span>
-        <button>
-          <span></span>
-        </button>
-        <div id="navbarNav">
+        <a href="index.html">Navbar</a>
+        <div>
           <ul>
             <li>
-              <a href="#home">Home</a>
+              <a href="index.html">Home</a>
             </li>
             <li>
-              <a href="#Productos">Productos</a>
+              <a href="#productos">Productos</a>
+            </li>
+            <li>
+              <a href="#datosAlumno">Datos alumno</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <section>
-      <h1>Bienvenido al ejercicio</h1> 
+    <section style="height: 100vh;">
+      <h1>Bienvenido al ejercicio</h1>
+      <div>
+        <p>Esto es un texto de ejemplo</p>
+        <p>Podes presionar en en siguiente boton o en el navbar para ir a la seccion productos</p>
+        <button><a href="#productos">Productos</a></button>
+      </div> 
+    </section>
+    <section id="productos" style="height: 100vh;">
+      <h1>Esta es la seccion para Productos</h1>
+      <p>Se crean tres cards para contener las imagenes con su boton y texto</p>
+      <span>Presiona aqui para ir a home --> </span>
+      <button><a href="index.html">home</a></button>
+      <span>Presiona aqui para ir a datos del alumno --> </span>
+      <button><a href="#datosAlumno">Datos alumno</a></button>
       <div>
         <p>Esto es un texto de ejemplo</p>
         <img src="/sin bootstrap/pizza 2.jpg" alt="pizza" style="width: 20rem; height: 15rem;"> 
         <button>click aqui</button>
       </div>
-      <footer>
-        <p>Zurano Alexis Agustin - legajo 40087 - Trabajo practico 1</p>
-      </footer>
+      <div>
+        <img src="/sin bootstrap/pizza 2.jpg" alt="pizza" style="width: 20rem; height: 15rem;"> 
+        <button>click aqui</button>
+      </div>
     </section>
+      <footer id="datosAlumno" style="height: 100vh;">
+        <p>Zurano Alexis Agustin - legajo 40087 - Trabajo practico 1</p>
+        <button><a href="index.html">Volver a inicio</a></button>
+      </footer>
+    
   </body>
 </html>
